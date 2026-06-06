@@ -40,6 +40,7 @@ if __name__ == "__main__":
     logistic_regression_model = LogisticRegression(
         random_state=config["random_state"],
         max_iter=params["max_iter"],
+        penalty=params["penalty"],
         C=params["C"],
         solver=params["solver"],
     )

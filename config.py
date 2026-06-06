@@ -6,6 +6,7 @@ config = {
     },
     "logistic_regression": {
         "max_iter": 200,
+        "penalty": "l2",
         "C": 1.0,
         "solver": "lbfgs",
     },
